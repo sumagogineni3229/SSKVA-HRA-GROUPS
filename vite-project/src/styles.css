@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --wine: #651d2b;
+  --wine-dark: #351019;
+  --gold: #b4873b;
+  --gold-light: #d8b66c;
+  --cream: #f5ecdf;
+  --paper: #fffaf3;
+  --text: #302720;
+  --muted: #756a61;
+  --border: #ded1bf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: var(--paper);
+  color: var(--text);
+
+  font-family:
+    "Noto Sans Telugu",
+    "Nirmala UI",
+    "Gautami",
+    Arial,
+    sans-serif;
+
+  font-weight: 400;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family:
+    "Noto Sans Telugu",
+    "Nirmala UI",
+    "Gautami",
+    Arial,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#root {
+  min-height: 100vh;
+}
