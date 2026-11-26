@@ -7,8 +7,8 @@ import logo from "../assets/logo.png";
 const navItems = [
   { to: "/activities", label: "కార్యక్రమాలు" },
   { to: "/awards", label: "పురస్కారాలు" },
-  { to: "/andhra-pradesh-chapters", label: "ఆంధ్రప్రదేశ్ శాఖలు" },
-  { to: "/telangana-chapters", label: "తెలంగాణ శాఖలు" },
+  { to: "/andhra-pradesh-chapters", label: "ఆంధ్రప్రదేశ్ కార్యవర్గం" },
+  { to: "/telangana-chapters", label: "తెలంగాణ కార్యవర్గం" },
   { to: "/gallery", label: "చిత్రమాలిక" },
   { to: "/events", label: "వేడుకలు" },
   { to: "/publications", label: "ప్రచురణలు" },
@@ -235,13 +235,13 @@ export default function Header() {
 
         /* TOP BAR */
         .kalavedika-topbar {
-          min-height: 32px;
+          min-height: 44px;
           background: #351019;
           color: #E9DDD4;
         }
 
         .topbar-content {
-          min-height: 32px;
+          min-height: 44px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -259,14 +259,14 @@ export default function Header() {
 
         /* MAIN HEADER */
         .kalavedika-main {
-          min-height: 88px;
+          min-height: 112px;
           background: rgba(255, 252, 247, 0.98);
           border-bottom: 1px solid #E9DED2;
           box-shadow: 0 4px 18px rgba(53, 16, 25, 0.045);
         }
 
         .header-content {
-          min-height: 88px;
+          min-height: 112px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -283,8 +283,8 @@ export default function Header() {
         }
 
         .logo-wrapper {
-          width: 62px;
-          height: 62px;
+          width: 68px;
+          height: 68px;
           flex-shrink: 0;
           display: flex;
           align-items: center;
@@ -302,7 +302,7 @@ export default function Header() {
           margin: 0;
           color: var(--header-wine);
           font-family: "Playfair Display", "Noto Serif Telugu", serif;
-          font-size: 23px;
+          font-size: 24px;
           font-weight: 600;
           line-height: 1.45;
           letter-spacing: -0.3px;
@@ -321,9 +321,11 @@ export default function Header() {
         /* DESKTOP NAVIGATION */
         .desktop-navigation {
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
+          align-content: center;
           justify-content: flex-end;
-          gap: 2px;
+          gap: 0 2px;
           flex: 1;
           min-width: 0;
         }
@@ -331,7 +333,7 @@ export default function Header() {
         .navigation-link,
         .dropdown-button {
           position: relative;
-          min-height: 88px;
+          min-height: 50px;
           display: inline-flex;
           align-items: center;
           justify-content: center;
@@ -341,7 +343,7 @@ export default function Header() {
           background: transparent;
           color: #4A403A;
           font-family: "Inter", "Noto Sans Telugu", sans-serif;
-          font-size: 12px;
+          font-size: 13px;
           font-weight: 500;
           line-height: 1.6;
           letter-spacing: 0;
@@ -357,7 +359,7 @@ export default function Header() {
           position: absolute;
           left: 9px;
           right: 9px;
-          bottom: 18px;
+          bottom: 7px;
           height: 2px;
           background: var(--header-gold);
           transform: scaleX(0);
@@ -385,7 +387,7 @@ export default function Header() {
         /* ABOUT DROPDOWN */
         .navigation-dropdown {
           position: relative;
-          min-height: 88px;
+          min-height: 50px;
           display: flex;
           align-items: center;
         }
@@ -503,18 +505,18 @@ export default function Header() {
           .dropdown-button {
             padding-left: 5px;
             padding-right: 5px;
-            font-size: 11px;
+            font-size: 11.5px;
           }
         }
 
         /* MOBILE */
         @media (max-width: 900px) {
           .kalavedika-topbar {
-            min-height: 30px;
+            min-height: 36px;
           }
 
           .topbar-content {
-            min-height: 30px;
+            min-height: 36px;
             justify-content: center;
             text-align: center;
             font-size: 9px;
@@ -526,7 +528,7 @@ export default function Header() {
 
           .kalavedika-main,
           .header-content {
-            min-height: 76px;
+            min-height: 84px;
           }
 
           .desktop-navigation {
@@ -538,8 +540,8 @@ export default function Header() {
           }
 
           .logo-wrapper {
-            width: 53px;
-            height: 53px;
+            width: 58px;
+            height: 58px;
           }
 
           .brand-content h1 {
@@ -656,12 +658,12 @@ export default function Header() {
 
           .kalavedika-main,
           .header-content {
-            min-height: 70px;
+            min-height: 78px;
           }
 
           .logo-wrapper {
-            width: 47px;
-            height: 47px;
+            width: 51px;
+            height: 51px;
           }
 
           .brand-content h1 {

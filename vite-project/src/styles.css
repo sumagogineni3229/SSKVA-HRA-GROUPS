@@ -61,3 +61,7 @@ img {
 #root {
   min-height: 100vh;
 }
+
+main :is(h1, h2, h3) {
+  zoom: 0.9;
+}

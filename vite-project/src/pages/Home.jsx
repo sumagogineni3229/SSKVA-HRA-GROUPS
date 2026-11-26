@@ -25,6 +25,7 @@ import founder from "../assets/founder.png";
 import founderPic from "../assets/founderpic2.png";
 import founderWithCbn from "../assets/founderwithcbn.png";
 import founderWithCbn2 from "../assets/founderwithcbn2.png";
+import homePhotoStoryThird from "../assets/home-photo-story-third.jpg";
 import news from "../assets/news.png";
 import note from "../assets/note.png";
 
@@ -99,7 +100,8 @@ const recognitionList = [
   "పద్మభూషణ్ బోయి భీమన్న కవి ప్రభుత్వ జీవిత సాఫల్య పురస్కార గ్రహీత",
   "మహాకవి గుర్రం జాషువా కవి ప్రభుత్వ పురస్కార గ్రహీత",
   "ప్రభుత్వ ఉగాది పురస్కార గ్రహీత",
-  "ఆంధ్రప్రదేశ్ రాష్ట్ర సాహిత్య అకాడమి పురస్కార గ్రహీత"
+  "ఆంధ్రప్రదేశ్ రాష్ట్ర సాహిత్య అకాడమి పురస్కార గ్రహీత",
+  "మీడియా అకాడమీ తెలుగు భాషా పురస్కార గ్రహీత"
 ];
 
 
@@ -166,27 +168,23 @@ export default function Home() {
             </div>
 
             <h1 className="signature-title">
-              అక్షరం
-              <span>అమరత్వం</span>
+              శ్రీ శ్రీ కళావేదిక
               <br />
-              పొందే వేదిక
+              నిరంతర సాహిత్య ప్రయాణం – ప్రభంజనం
             </h1>
 
             <p className="signature-description">
-              తెలుగు భాషకు గౌరవం...
+              తెలుగు వైభవం...
               <br className="desktop-break" />
-              సాహిత్యానికి ప్రోత్సాహం...
+              తెలుగు సాహిత్యం...
               <br className="desktop-break" />
-              కళలకు విశ్వ వేదిక...
-              <br className="desktop-break" />
-              సేవకు ఒక చిరస్థాయి చిరునామా.
+              తెలుగు సాంప్రదాయం.
             </p>
 
             <div className="signature-motto">
               <span className="motto-mark">“</span>
               <div>
-                <strong>ప్రతిభ మీది... వేదిక మాది...</strong>
-                <small>మీ ప్రతిభకు మా పట్టాభిషేకం</small>
+                <strong>ప్రతిభ మీది...పట్టాభిషేకం మాది...</strong>
               </div>
             </div>
 
@@ -222,10 +220,10 @@ export default function Home() {
               <div className="portrait-inner">
 
                 <img
-  src={founderPic}
-  alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
-  className="founder-portrait"
-/>
+                  src={founder}
+                  alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
+                  className="founder-portrait"
+                />
 
                 <div className="portrait-light" />
 
@@ -565,7 +563,7 @@ export default function Home() {
             <div className="founder-content">
 
               <span className="eyebrow">
-                వ్యవస్థాపకుని ఆలోచన
+                కళారత్న కత్తిమండ ప్రతాప్ కుమార్ గారి ఆలోచన
               </span>
 
 
@@ -626,12 +624,8 @@ export default function Home() {
                 <div>
 
                   <strong>
-                    “ప్రతిభ మీది... వేదిక మాది...”
+                    “ప్రతిభ మీది...పట్టాభిషేకం మాది...”
                   </strong>
-
-                  <span>
-                    మీ ప్రతిభకు మా పట్టాభిషేకం
-                  </span>
 
                 </div>
 
@@ -677,7 +671,7 @@ export default function Home() {
               <span className="song-small-label">శ్రీ శ్రీ కళావేదిక</span>
               <h3>అక్షర సేవకు<br />ఒక గీత నివాళి</h3>
               <p>సాహిత్యానికి సేవగా, కళలకు వేదికగా, తెలుగు భాషా సంస్కృతికి వారసత్వంగా నిలుస్తున్న శ్రీ శ్రీ కళావేదిక ప్రస్థానంలో కళారత్న కత్తిమండ ప్రతాప్ కుమార్ గారి సేవా స్ఫూర్తిని ప్రతిబింబించే ప్రత్యేక గీతం.</p>
-              <div className="song-divider"><span /><b>ప్రతిభ మీది... వేదిక మాది...</b><span /></div>
+              <div className="song-divider"><span /><b>ప్రతిభ మీది...పట్టాభిషేకం మాది...</b><span /></div>
               <a href="https://youtu.be/9FlyRpn78kA" target="_blank" rel="noopener noreferrer" className="song-youtube-button">యూట్యూబ్‌లో చూడండి <ArrowUpRight size={16} /></a>
             </div>
           </div>
@@ -814,7 +808,7 @@ export default function Home() {
             <div className="photo-small">
 
               <img
-                src={founder}
+                src={homePhotoStoryThird}
                 alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
               />
 
@@ -1041,9 +1035,7 @@ export default function Home() {
               </span>
 
               <h2>
-                సేవకు వచ్చిన
-                <br />
-                <span>గుర్తింపులు.</span>
+                ప్రతాపగారికి లభించిన పురస్కారాలు ఆయన చేసిన సేవలకు లభించిన గుర్తింపులు.
               </h2>
 
             </div>
@@ -1375,7 +1367,7 @@ export default function Home() {
           max-width: 100%;
         }
 
-        .kalavedika-container {
+        .kalavedika-home .kalavedika-container {
 
           width: min(1180px, 92%);
           margin: 0 auto;
@@ -1430,7 +1422,6 @@ export default function Home() {
           width: 64%;
           height: 125%;
           z-index: -4;
-          background-image: url("/assets/founderpic2.png");
           background-repeat: no-repeat;
           background-position: center 35%;
           background-size: cover;
@@ -4016,7 +4007,7 @@ export default function Home() {
 
         @media (max-width: 600px) {
 
-          .kalavedika-container {
+          .kalavedika-home .kalavedika-container {
 
             width: 92%;
 

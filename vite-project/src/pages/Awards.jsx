@@ -19,6 +19,7 @@ import founder from "../assets/founder.png";
 import founderpic2 from "../assets/founderpic2.png";
 import founderwithcbn from "../assets/founderwithcbn.png";
 import founderwithcbn2 from "../assets/founderwithcbn2.png";
+import awardsFounderPortrait from "../assets/awards-founder-portrait.jpg";
 import imag1 from "../assets/imag1.png";
 import imag2 from "../assets/imag2.png";
 import imag3 from "../assets/imag3.png";
@@ -1687,9 +1688,7 @@ export default function Awards() {
 
               <p className="awards-hero-description">
 
-                ప్రతిభ మీది...
-                వేదిక మాది...
-                మీ ప్రతిభకు మా పట్టాభిషేకం.
+                ప్రతిభ మీది...పట్టాభిషేకం మాది...
 
               </p>
 
@@ -1853,10 +1852,7 @@ export default function Awards() {
 
                   <strong>
 
-                    “ప్రతిభ మీది...
-                    వేదిక మాది...
-                    మీ ప్రతిభకు
-                    మా పట్టాభిషేకం.”
+                    “ప్రతిభ మీది...పట్టాభిషేకం మాది...”
 
                   </strong>
 
@@ -1878,8 +1874,8 @@ export default function Awards() {
                 <div className="awards-founder-image">
 
                   <img
-                    src={founder}
-                    alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
+                    src={awardsFounderPortrait}
+                    alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్ నమస్కారం చేస్తున్న చిత్రం"
                   />
 
                   <div className="awards-founder-caption">
@@ -1999,6 +1995,13 @@ export default function Awards() {
                 text="ఆంధ్రప్రదేశ్ రాష్ట్ర సాహిత్య అకాడమి పురస్కార గ్రహీత."
               />
 
+              <AwardCard
+                number="07"
+                icon={BadgeCheck}
+                title="మీడియా అకాడమీ తెలుగు భాషా పురస్కార గ్రహీత"
+                text="మీడియా అకాడమీ తెలుగు భాషా పురస్కార గ్రహీత."
+              />
+
             </div>
 
           </Reveal>
@@ -2040,7 +2043,7 @@ export default function Awards() {
                 <Star size={25} />
 
                 <strong>
-                  100+
+                  180+
                 </strong>
 
                 <span>
@@ -2055,7 +2058,7 @@ export default function Awards() {
                 <Users size={25} />
 
                 <strong>
-                  1000+
+                  10000+
                 </strong>
 
                 <span>
