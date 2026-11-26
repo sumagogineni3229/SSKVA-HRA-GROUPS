@@ -125,6 +125,73 @@ const events = [
   },
 ];
 
+const historicalEventYears = [
+  {
+    id: "2010-2020",
+    year: "2010–2020",
+    events: [
+      { date: "2010", title: "తూర్పుగోదావరి జిల్లా అంతర్వేదిలో కవుల సమ్మేళనం." },
+      { date: "2011", title: "యువజన కవి సమ్మేళనం – మలికిపురం, తూర్పుగోదావరి జిల్లా." },
+      { date: "2012", title: "హైదరాబాద్ రవీంద్రభారతిలో జాతీయ సాహిత్య సమ్మేళనం." },
+      { date: "2013", title: "విజయవాడలో జాతీయ తెలుగు కవి సమ్మేళనం." },
+      { date: "2014", title: "రాజమహేంద్రవరంలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "2015", title: "అంతర్జాతీయ ప్రపంచ కవితోత్సవం – 30 గంటల 30 నిమిషాల 30 సెకన్ల ఏకధాటి కవి సమ్మేళనం (ప్రపంచ రికార్డు నమోదు)." },
+      { date: "2016", title: "అంతర్జాతీయ కవుల పండుగ పేరుతో సాహిత్యోత్సవం." },
+      { date: "2017", title: "రాజమహేంద్రవరంలో యువ ప్రతిభా పురస్కారాల ప్రదానం." },
+      { date: "2017", title: "తూర్పుగోదావరి జిల్లా మలికిపురంలో మూడు రోజులపాటు రంగస్థల నాటక ప్రదర్శనలు." },
+      { date: "2017", title: "కువైట్ దేశంలో తెలుగు వారిచే తెలుగు సాహిత్య సదస్సు." },
+      { date: "2018", title: "దుబాయ్ దేశంలో తెలుగు వారిచే తెలుగు వైభవం." },
+      { date: "2019", title: "నిడదవోలు, సింగపూర్‌లలో జాతీయ కవి సమ్మేళనాలు." },
+      { date: "మార్చి 1, 2020", title: "ఏలూరులో జాతీయ శతాధిక కవి సమ్మేళనం." },
+    ],
+  },
+  {
+    id: "2021",
+    year: "2021",
+    events: [
+      { date: "మార్చి 7", title: "ఏలూరులో శతాధిక కవి సమ్మేళనం." },
+      { date: "ఏప్రిల్ 20", title: "సన్నయ్య యూనివర్సిటీలో కవి సమ్మేళనం." },
+      { date: "ఆగస్టు 27", title: "ఏలూరులో కీర్తి పురస్కార అవార్డులు, జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "అక్టోబర్ 2", title: "తెలంగాణ భద్రాచలంలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "అక్టోబర్ 24", title: "పశ్చిమగోదావరి జిల్లా తణుకులో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "నవంబర్ 5", title: "కోనసీమ జిల్లా అమలాపురంలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "డిసెంబర్ 17", title: "హైదరాబాద్ రవీంద్రభారతిలో జాతీయ శతాధిక కవి సమ్మేళనం మరియు జాతీయ సాహిత్య సదస్సు." },
+    ],
+  },
+  {
+    id: "2022",
+    year: "2022",
+    events: [
+      { date: "జనవరి 9", title: "శ్రీశ్రీ కళావేదిక ఆధ్వర్యంలో యంగ్ టాలెంట్ వన్ సాహిత్య మహోత్సవం, మారేడుమిల్లిలో కార్యక్రమం." },
+      { date: "ఫిబ్రవరి 27", title: "తెలంగాణ మంచిర్యాలలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "జూన్ 4, 5", title: "తెలంగాణ మంచిర్యాల జిల్లాలో 24 గంటల 24 నిమిషాల 24 సెకన్ల నాన్‌స్టాప్ కవితా కార్యక్రమం." },
+      { date: "జూలై 24", title: "హైదరాబాద్‌లో తెలుగు యూనివర్సిటీ ఆధ్వర్యంలో 200 మంది మహాశయమూర్తుల కవిత్వం ‘ఆమె’ పుస్తక ఆవిష్కరణ, జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "ఆగస్టు 26", title: "కృష్ణా నది తీరాన విజయవాడలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "అక్టోబర్ 9", title: "శ్రీకాకుళంలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "అక్టోబర్ 30", title: "యాదాద్రి భువనగిరి జిల్లాలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "నవంబర్ 27", title: "భద్రాద్రి కవితా పండుగ పేరుతో భద్రాచలంలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "డిసెంబర్ 18", title: "ప్రకాశం కవనతోరణం, ఒంగోలు కవితా ప్రభంజనం కార్యక్రమం – జాతీయ శతాధిక కవి సమ్మేళనం." },
+    ],
+  },
+  {
+    id: "2023",
+    year: "2023",
+    events: [
+      { date: "జనవరి 21", title: "యువత ప్రోత్సాహం కోసం 200 మంది యువతతో యువజన కవితా ఉత్సవం." },
+      { date: "మార్చి 12", title: "జి.ఆర్. అంబేద్కర్ కోనసీమ జిల్లా అమలాపురంలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "మే 7", title: "సాహిత్య చరిత్రలో తొలిసారిగా శ్రీశ్రీ కళావేదిక కార్యక్రమం." },
+      { date: "మే 21", title: "కర్నూలులో ‘కవులు కవితా వసంతం’ జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "జూన్ 25", title: "శ్రీశ్రీ కళావేదిక ఆధ్వర్యాన వైభవంగా మైసూరులో తెలుగు కవితా కార్యక్రమం." },
+      { date: "జూలై 9", title: "తెలంగాణ రాజధాని హైదరాబాద్‌లో తెలంగాణ సారస్వత పరిషత్తులో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "ఆగస్టు 12", title: "సత్యసాయి జిల్లా లేపాక్షిలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "ఆగస్టు 27", title: "తెలుగు భాషా దినోత్సవం సందర్భంగా ఏలూరులో హేలాపురి కవితా సంబరాలు, జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "అక్టోబర్ 8", title: "పల్నాడు జిల్లా నరసరావుపేటలో జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "నవంబర్ 19", title: "విజయవాడలో 125వ జాతీయ శతాధిక కవి సమ్మేళనం." },
+      { date: "డిసెంబర్ 16, 17", title: "తాడేపల్లిగూడెంలో ప్రపంచ తెలుగు, సాహిత్య కళా ఉత్సవాలు." },
+    ],
+  },
+];
+
 const categories = [
   "అన్ని కార్యక్రమాలు",
   "సాహిత్య కార్యక్రమాలు",
@@ -502,6 +569,91 @@ export default function Events() {
           color: #a17d4e;
         }
 
+        .events-history {
+          margin-top: 85px;
+          padding: 38px;
+          border: 1px solid rgba(196,161,107,.3);
+          border-radius: 20px;
+          background: linear-gradient(145deg, #fffdf9, #f3e8dc);
+        }
+
+        .events-history-heading {
+          max-width: 860px;
+          margin: 0 auto 30px;
+          text-align: center;
+        }
+
+        .events-history-heading h2 {
+          margin: 0;
+          color: var(--wine-dark);
+          font-family: "Noto Serif Telugu", serif;
+          font-size: clamp(23px, 3vw, 32px);
+          line-height: 1.8;
+        }
+
+        .events-history-heading p {
+          margin: 8px 0 0;
+          color: #827579;
+          font-size: 13px;
+          line-height: 1.9;
+        }
+
+        .events-history-years {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 18px;
+        }
+
+        .events-history-year {
+          overflow: hidden;
+          border: 1px solid rgba(118,29,55,.1);
+          border-radius: 14px;
+          background: #fff;
+          box-shadow: 0 8px 25px rgba(60,30,39,.04);
+        }
+
+        .events-history-year h3 {
+          margin: 0;
+          padding: 13px 18px;
+          color: #fff;
+          background: var(--wine);
+          font-family: "Noto Serif Telugu", serif;
+          font-size: 19px;
+          font-weight: 600;
+        }
+
+        .events-history-year ol {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+
+        .events-history-year li {
+          display: grid;
+          grid-template-columns: minmax(95px, 125px) minmax(0, 1fr);
+          gap: 12px;
+          padding: 13px 16px;
+          border-bottom: 1px solid rgba(118,29,55,.08);
+        }
+
+        .events-history-year li:last-child {
+          border-bottom: 0;
+        }
+
+        .events-history-date {
+          color: var(--wine);
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 1.8;
+        }
+
+        .events-history-event {
+          margin: 0;
+          color: #675a5c;
+          font-size: 12px;
+          line-height: 1.9;
+        }
+
         /* PROGRAM APPROACH */
 
         .events-approach {
@@ -715,6 +867,10 @@ export default function Events() {
             grid-template-columns: 1fr;
             gap: 25px;
           }
+
+          .events-history-years {
+            grid-template-columns: 1fr;
+          }
         }
 
         /* MOBILE */
@@ -758,6 +914,16 @@ export default function Events() {
           .events-grid {
             grid-template-columns: 1fr;
             gap: 20px;
+          }
+
+          .events-history {
+            margin-top: 60px;
+            padding: 24px 16px;
+          }
+
+          .events-history-year li {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 4px;
           }
 
           .event-image {
@@ -934,6 +1100,52 @@ export default function Events() {
           ))}
         </div>
 
+        <section
+          className="events-history"
+          aria-labelledby="events-history-title"
+        >
+          <div className="events-history-heading">
+            <span className="events-overline">
+              OUR LITERARY MILESTONES
+            </span>
+
+            <h2 id="events-history-title">
+              శ్రీశ్రీ కళావేదిక ఆధ్వర్యంలో నిర్వహించిన ముఖ్యమైన
+              సాహిత్య, సాంస్కృతిక కార్యక్రమాలు
+            </h2>
+
+            <p>
+              2010 నుంచి 2023 వరకు నిర్వహించిన కార్యక్రమాలు సంవత్సరాల వారీగా.
+            </p>
+          </div>
+
+          <div className="events-history-years">
+            {historicalEventYears.map((year) => (
+              <section
+                className="events-history-year"
+                key={year.id}
+                aria-labelledby={`events-year-${year.id}`}
+              >
+                <h3 id={`events-year-${year.id}`}>{year.year}</h3>
+
+                <ol>
+                  {year.events.map((event, index) => (
+                    <li key={`${year.id}-${event.date}-${index}`}>
+                      <span className="events-history-date">
+                        {event.date}
+                      </span>
+
+                      <p className="events-history-event">
+                        {event.title}
+                      </p>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            ))}
+          </div>
+        </section>
+
         {/* ORGANISATION APPROACH */}
         <section className="events-approach">
           <div className="events-approach-heading">
@@ -981,9 +1193,7 @@ export default function Events() {
           <span>✦</span>
 
           <h3>
-            ప్రతిభ మీది... వేదిక మాది...
-            <br />
-            మీ ప్రతిభకు మా పట్టాభిషేకం
+            ప్రతిభ మీది...పట్టాభిషేకం మాది...
           </h3>
 
           <p>

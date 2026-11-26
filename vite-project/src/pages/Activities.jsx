@@ -20,6 +20,12 @@ import dance from "../assets/aboutus/dance.png";
 import kalapradarshana from "../assets/aboutus/kalapradarshana.png";
 import kolatam from "../assets/aboutus/kolatam.png";
 import writings from "../assets/aboutus/writings.jpg";
+import activitiesHeroMain from "../assets/activities-hero-main.jpg";
+import activitiesHeroTop from "../assets/activities-hero-top.jpg";
+import activitiesCollage1 from "../assets/activities-collage-1.jpg";
+import activitiesCollage2 from "../assets/activities-collage-2.jpg";
+import activitiesCollage3 from "../assets/activities-collage-3.jpg";
+import activitiesGlobalReach from "../assets/activities-global-reach.jpg";
 
 
 /* =========================================================
@@ -591,41 +597,6 @@ const styles = `
       rgba(25,3,9,.72),
       transparent 45%
     );
-}
-
-
-.act-photo-label {
-  position: absolute;
-
-  z-index: 4;
-
-  left: 24px;
-  bottom: 22px;
-
-  color: white;
-}
-
-.act-photo-label small {
-  display: block;
-
-  color:
-    var(--act-gold-light);
-
-  font-size: 8px;
-}
-
-.act-photo-label strong {
-  display: block;
-
-  margin-top: 5px;
-
-  font-family:
-    "Noto Serif Telugu",
-    serif;
-
-  font-size: 18px;
-
-  font-weight: 500;
 }
 
 
@@ -2184,21 +2155,9 @@ export default function Activities() {
                 <div className="act-main-photo-inner">
 
                   <img
-                    src={kalapradarshana}
-                    alt="సాంస్కృతిక కళా ప్రదర్శన"
+                    src={activitiesHeroMain}
+                    alt="సాంస్కృతిక కార్యక్రమంలో కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
                   />
-
-                  <div className="act-photo-label">
-
-                    <small>
-                      కళ • సంస్కృతి • సంప్రదాయం
-                    </small>
-
-                    <strong>
-                      కళా ప్రదర్శనలు
-                    </strong>
-
-                  </div>
 
                 </div>
 
@@ -2218,8 +2177,8 @@ export default function Activities() {
               <div className="act-small-photo act-small-two">
 
                 <img
-                  src={dance}
-                  alt="నృత్య ప్రదర్శన"
+                  src={activitiesHeroTop}
+                  alt="సాహిత్య పురస్కార కార్యక్రమం"
                 />
 
               </div>
@@ -2330,9 +2289,7 @@ export default function Activities() {
 
                   <strong>
 
-                    ప్రతిభ మీది...
-                    వేదిక మాది...
-                    మీ ప్రతిభకు మా పట్టాభిషేకం.
+                    ప్రతిభ మీది...పట్టాభిషేకం మాది...
 
                   </strong>
 
@@ -2359,12 +2316,12 @@ export default function Activities() {
                 <div className="act-collage-image act-collage-one">
 
                   <img
-                    src={writings}
-                    alt="తెలుగు రచనలు"
+                    src={activitiesCollage1}
+                    alt="తెలుగు సాహిత్య కార్యక్రమ ప్రచారం"
                   />
 
                   <span className="act-collage-label">
-                    తెలుగు సాహిత్యం
+                    సాహిత్య కార్యక్రమ ప్రచారం
                   </span>
 
                 </div>
@@ -2373,12 +2330,12 @@ export default function Activities() {
                 <div className="act-collage-image act-collage-two">
 
                   <img
-                    src={dance}
-                    alt="నృత్య ప్రదర్శన"
+                    src={activitiesCollage2}
+                    alt="సాహిత్య పత్రికతో సంస్థ ప్రతినిధులు"
                   />
 
                   <span className="act-collage-label">
-                    నృత్య కళ
+                    సాహిత్య ప్రచారం
                   </span>
 
                 </div>
@@ -2387,12 +2344,12 @@ export default function Activities() {
                 <div className="act-collage-image act-collage-three">
 
                   <img
-                    src={kolatam}
-                    alt="కోలాటం"
+                    src={activitiesCollage3}
+                    alt="సాహిత్య సభలో సత్కారం పొందుతున్నవారు"
                   />
 
                   <span className="act-collage-label">
-                    జానపద కళ
+                    సాహిత్య సత్కార కార్యక్రమం
                   </span>
 
                 </div>
@@ -2460,7 +2417,7 @@ export default function Activities() {
               <ActivityCard
                 icon={Feather}
                 title="కవి సమ్మేళనాలు"
-                text="వందలాది శతాధిక కవి సమ్మేళనాల ద్వారా కవులకు తమ సృజనను వినిపించే విస్తృత వేదికను అందించడం."
+                text="యువ కవులకు, వర్తమాన కవులకు, ప్రతిభ ఉండి సరైన ప్రోత్సాహం లేనివారికి తమ ప్రతిభను చాటుకునే అవకాశాలు కల్పించడం."
               />
 
 
@@ -2569,7 +2526,7 @@ export default function Activities() {
               <div className="act-number">
 
                 <strong>
-                  100+
+                  180+
                 </strong>
 
                 <span>
@@ -2618,12 +2575,12 @@ export default function Activities() {
 
               <h2 className="act-title">
 
-                ఒక వేదిక నుంచి
+                గల్లీ నుంచి ఢిల్లీ వరకు…
 
                 <br />
 
                 <span>
-                  ప్రపంచ వేదిక వరకు
+                  ఢిల్లీ నుంచి ప్రపంచ వేదిక వరకు!
                 </span>
 
               </h2>
@@ -2731,6 +2688,8 @@ export default function Activities() {
                 నిర్వహించిన ఘనత శ్రీ శ్రీ
                 కళావేదిక సాహిత్య ప్రస్థానంలో
                 ఒక ప్రత్యేక అధ్యాయం.
+                “సాహితీ బ్రహ్మోత్సవాలు” 2023 ఏప్రిల్ 9, 10 తేదీల్లో
+                తిరుపతిలోని మహతి ఆడిటోరియంలో నిర్వహించబడ్డాయి.
 
               </p>
 
@@ -2876,8 +2835,8 @@ export default function Activities() {
                 <div className="act-reach-card-inner">
 
                   <img
-                    src={kalapradarshana}
-                    alt="శ్రీ శ్రీ కళావేదిక సాంస్కృతిక కార్యక్రమం"
+                    src={activitiesGlobalReach}
+                    alt="శ్రీశ్రీ కళావేదిక సాహిత్య సభ వేదిక"
                   />
 
                 </div>

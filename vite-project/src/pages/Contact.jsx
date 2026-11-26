@@ -901,9 +901,7 @@ ${form.message}
       <section className="closing">
         <div className="container">
           <h2>
-            ప్రతిభ మీది... వేదిక మాది...
-            <br />
-            మీ ప్రతిభకు మా పట్టాభిషేకం!
+            ప్రతిభ మీది...పట్టాభిషేకం మాది...
           </h2>
 
           <p>

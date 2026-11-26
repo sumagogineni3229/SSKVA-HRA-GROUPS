@@ -94,7 +94,7 @@ export default function TelanganaChapters() {
 
             <h1>
               తెలంగాణ
-              <span>శాఖలు</span>
+              <span>కార్యవర్గం</span>
             </h1>
 
             <p className="tg-hero-subtitle">
@@ -191,7 +191,7 @@ export default function TelanganaChapters() {
             <div className="tg-intro-title">
 
               <span className="tg-section-label">
-                తెలంగాణ శాఖల ప్రస్థానం
+                తెలంగాణ కార్యవర్గ ప్రస్థానం
               </span>
 
               <h2>
@@ -215,7 +215,7 @@ export default function TelanganaChapters() {
                 తెలంగాణలోని 33 జిల్లాలను అనుసంధానిస్తూ
                 సాహిత్య, సాంస్కృతిక మరియు సామాజిక సేవా
                 కార్యక్రమాలను ప్రజలకు మరింత చేరువ చేయడం
-                శ్రీ శ్రీ కళావేదిక శాఖల ప్రధాన లక్ష్యం.
+                శ్రీ శ్రీ కళావేదిక కార్యవర్గం ప్రధాన లక్ష్యం.
               </p>
 
               <p>
@@ -223,7 +223,7 @@ export default function TelanganaChapters() {
                 కళాకారులు, యువ సృజనకారులు మరియు సాహిత్య
                 అభిమానులను ఒకే వేదికపైకి తీసుకువచ్చి,
                 ప్రతిభను గుర్తించి ప్రోత్సహించే నిరంతర
-                కార్యాచరణకు ఈ శాఖలు వారధిగా నిలుస్తాయి.
+                కార్యాచరణకు ఈ కార్యవర్గం వారధిగా నిలుస్తుంది.
               </p>
 
             </div>
@@ -315,7 +315,7 @@ export default function TelanganaChapters() {
               </span>
 
               <h2>
-                జిల్లా శాఖలు
+                జిల్లా కార్యవర్గం
               </h2>
 
               <p>
@@ -410,7 +410,7 @@ export default function TelanganaChapters() {
                     <div className="tg-district-content">
 
                       <span>
-                        తెలంగాణ శాఖ
+                        తెలంగాణ కార్యవర్గం
                       </span>
 
                       <h3>
@@ -525,7 +525,7 @@ export default function TelanganaChapters() {
               </span>
 
               <h2>
-                ఆంధ్రప్రదేశ్ శాఖలు
+                ఆంధ్రప్రదేశ్ కార్యవర్గం
               </h2>
 
               <p>
@@ -540,7 +540,7 @@ export default function TelanganaChapters() {
               href="/andhra-pradesh-chapters"
               className="tg-next-button"
             >
-              ఆంధ్రప్రదేశ్ శాఖలు
+              ఆంధ్రప్రదేశ్ కార్యవర్గం
               <ArrowUpRight size={18} />
             </a>
 

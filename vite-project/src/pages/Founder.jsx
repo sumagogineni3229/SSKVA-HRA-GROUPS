@@ -15,9 +15,15 @@ import {
 } from "lucide-react";
 
 import founder from "../assets/founder.png";
+import founderVisionPortrait from "../assets/founder-vision-portrait.jpg";
+import founderMessagePortrait from "../assets/founder-message-portrait.jpg";
 import founderpic2 from "../assets/founderpic2.png";
 import founderwithcbn from "../assets/founderwithcbn.png";
 import founderwithcbn2 from "../assets/founderwithcbn2.png";
+import founderGallery1 from "../assets/founder-gallery-1.jpg";
+import founderGallery2 from "../assets/founder-gallery-2.jpg";
+import founderGallery3 from "../assets/founder-gallery-3.jpg";
+import founderGallery4 from "../assets/founder-gallery-4.jpg";
 
 
 /* =========================================================
@@ -713,20 +719,6 @@ const founderStyles = `
     #d4c1a7;
 }
 
-.fp-floating-one {
-  width: 175px;
-  height: 145px;
-
-  left: 1%;
-  bottom: 45px;
-
-  transform:
-    rotate(-5deg);
-
-  animation:
-    fpFloatOne 6s ease-in-out infinite;
-}
-
 .fp-floating-two {
   width: 175px;
   height: 145px;
@@ -739,20 +731,6 @@ const founderStyles = `
 
   animation:
     fpFloatTwo 6.5s ease-in-out infinite;
-}
-
-@keyframes fpFloatOne {
-  0%,100% {
-    transform:
-      rotate(-5deg)
-      translateY(0);
-  }
-
-  50% {
-    transform:
-      rotate(-3deg)
-      translateY(-14px);
-  }
 }
 
 @keyframes fpFloatTwo {
@@ -778,11 +756,11 @@ const founderStyles = `
 
   z-index: 9;
 
-  left: 9%;
-  top: 42%;
+  left: 5%;
+  top: 5%;
 
-  width: 118px;
-  height: 118px;
+  width: 150px;
+  height: 150px;
 
   display: flex;
 
@@ -834,25 +812,9 @@ const founderStyles = `
     "Noto Serif Telugu",
     serif;
 
-  font-size: 28px;
+  font-size: 38px;
 
   line-height: 1;
-}
-
-.fp-seal span {
-  position: relative;
-  z-index: 2;
-
-  font-size: 8px;
-}
-
-.fp-seal small {
-  position: relative;
-  z-index: 2;
-
-  margin-top: 5px;
-
-  font-size: 7px;
 }
 
 @keyframes fpSealPulse {
@@ -1174,6 +1136,7 @@ const founderStyles = `
 .fp-message-mark {
   width: 125px;
   height: 125px;
+  overflow: hidden;
 
   display: flex;
 
@@ -1198,9 +1161,12 @@ const founderStyles = `
     rgba(255,255,255,.015);
 }
 
-.fp-message-mark svg {
-  width: 46px;
-  height: 46px;
+.fp-message-mark img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
 .fp-message-title {
@@ -1724,15 +1690,9 @@ const founderStyles = `
     right: 4%;
   }
 
-  .fp-floating-one,
   .fp-floating-two {
     width: 125px;
     height: 105px;
-  }
-
-  .fp-floating-one {
-    left: -1px;
-    bottom: 45px;
   }
 
   .fp-floating-two {
@@ -1741,15 +1701,15 @@ const founderStyles = `
   }
 
   .fp-seal {
-    width: 83px;
-    height: 83px;
+    width: 108px;
+    height: 108px;
 
     left: 5%;
-    top: 42%;
+    top: 5%;
   }
 
   .fp-seal strong {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .fp-achievements,
@@ -2098,7 +2058,7 @@ export default function Founder() {
                 <div className="fp-portrait-inner">
 
                   <img
-                    src={founder}
+                    src={founderVisionPortrait}
                     alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
                   />
 
@@ -2119,16 +2079,6 @@ export default function Founder() {
               </div>
 
 
-              <div className="fp-floating-photo fp-floating-one">
-
-                <img
-                  src={founderpic2}
-                  alt="కత్తిమండ ప్రతాప్ కుమార్"
-                />
-
-              </div>
-
-
               <div className="fp-floating-photo fp-floating-two">
 
                 <img
@@ -2141,17 +2091,9 @@ export default function Founder() {
 
               <div className="fp-seal">
 
-                <span>
-                  కళారత్న
-                </span>
-
                 <strong>
                   శ్రీ
                 </strong>
-
-                <small>
-                  కళావేదిక
-                </small>
 
               </div>
 
@@ -2246,6 +2188,12 @@ export default function Founder() {
                 text="ఆంధ్రప్రదేశ్ రాష్ట్ర సాహిత్య అకాడమి పురస్కారాన్ని అందుకున్నారు."
               />
 
+              <Achievement
+                icon={Award}
+                title="మీడియా అకాడమీ తెలుగు భాషా పురస్కార గ్రహీత"
+                text="మీడియా అకాడమీ తెలుగు భాషా పురస్కార గ్రహీత."
+              />
+
             </div>
 
           </Reveal>
@@ -2274,7 +2222,10 @@ export default function Founder() {
 
               <div className="fp-message-mark">
 
-                <Quote />
+                <img
+                  src={founderMessagePortrait}
+                  alt="వ్యవస్థాపకులు కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
+                />
 
               </div>
 
@@ -2325,8 +2276,7 @@ export default function Founder() {
 
                   <p>
 
-                    ‘ప్రతిభ మీది... వేదిక మాది...
-                    మీ ప్రతిభకు మా పట్టాభిషేకం’
+                    ‘ప్రతిభ మీది...పట్టాభిషేకం మాది...’
                     అనే మహోన్నత భావంతో,
                     నిరంతరాయంగా నెలనెలా జాతీయ,
                     అంతర్జాతీయ సాహిత్య,
@@ -2484,12 +2434,12 @@ export default function Founder() {
                 <div className="fp-gallery-item">
 
                   <img
-                    src={founderpic2}
-                    alt="సాహిత్య కార్యక్రమం"
+                    src={founderGallery1}
+                    alt="పురస్కార ప్రదాన కార్యక్రమం"
                   />
 
                   <span className="fp-gallery-caption">
-                    సాహిత్య సేవ
+                    పురస్కార ప్రదానం
                   </span>
 
                 </div>
@@ -2498,12 +2448,12 @@ export default function Founder() {
                 <div className="fp-gallery-item">
 
                   <img
-                    src={founderwithcbn}
-                    alt="ప్రత్యేక కార్యక్రమం"
+                    src={founderGallery2}
+                    alt="విదేశీ అతిథులతో సమావేశం"
                   />
 
                   <span className="fp-gallery-caption">
-                    ప్రత్యేక కార్యక్రమం
+                    అంతర్జాతీయ అతిథులతో సమావేశం
                   </span>
 
                 </div>
@@ -2512,12 +2462,12 @@ export default function Founder() {
                 <div className="fp-gallery-item">
 
                   <img
-                    src={founderwithcbn2}
-                    alt="సాంస్కృతిక కార్యక్రమం"
+                    src={founderGallery3}
+                    alt="సాహిత్య వేదికపై సన్మాన కార్యక్రమం"
                   />
 
                   <span className="fp-gallery-caption">
-                    సాంస్కృతిక ప్రస్థానం
+                    సన్మాన కార్యక్రమం
                   </span>
 
                 </div>
@@ -2526,12 +2476,12 @@ export default function Founder() {
                 <div className="fp-gallery-item">
 
                   <img
-                    src={founder}
-                    alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
+                    src={founderGallery4}
+                    alt="శ్రీశ్రీ కళావేదిక సాహిత్య సభ"
                   />
 
                   <span className="fp-gallery-caption">
-                    వ్యవస్థాపకులు
+                    శ్రీశ్రీ కళావేదిక సాహిత్య సభ
                   </span>
 
                 </div>
@@ -2636,17 +2586,7 @@ export default function Founder() {
 
               <h2 className="fp-quote-text">
 
-                ప్రతిభ మీది...
-
-                <br />
-
-                <span>
-                  వేదిక మాది...
-                </span>
-
-                <br />
-
-                మీ ప్రతిభకు మా పట్టాభిషేకం.
+                ప్రతిభ మీది...పట్టాభిషేకం మాది...
 
               </h2>
 

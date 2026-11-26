@@ -14,8 +14,9 @@ import {
   Star,
 } from "lucide-react";
 
-import dance from "../assets/aboutus/dance.png";
-import kalaPradarshana from "../assets/aboutus/kalapradarshana.png";
+import cultureMainImage from "../assets/aboutus/culture-main.jpg";
+import cultureSideImage from "../assets/aboutus/culture-side.jpg";
+import founderRecognition from "../assets/aboutus/founder-recognition.jpg";
 import kolatam from "../assets/aboutus/kolatam.png";
 import writings from "../assets/aboutus/writings.jpg";
 
@@ -638,86 +639,6 @@ const pageStyles = `
 }
 
 /* =========================================================
-   FLOATING PHOTOS
-========================================================= */
-
-.ssk-small-image {
-  position: absolute;
-
-  z-index: 7;
-
-  padding: 7px;
-
-  background: #fff8eb;
-
-  box-shadow:
-    0 22px 50px rgba(0,0,0,.4);
-}
-
-.ssk-small-image img {
-  width: 100%;
-  height: 100%;
-
-  object-fit: contain;
-
-  background: #d8c7ae;
-}
-
-.ssk-small-1 {
-  width: 175px;
-  height: 145px;
-
-  left: -5px;
-  bottom: 55px;
-
-  transform: rotate(-5deg);
-
-  animation:
-    sskFloatOne 5.5s ease-in-out infinite;
-}
-
-.ssk-small-2 {
-  width: 175px;
-  height: 145px;
-
-  right: -8px;
-  top: 10px;
-
-  transform: rotate(5deg);
-
-  animation:
-    sskFloatTwo 6.5s ease-in-out infinite;
-}
-
-@keyframes sskFloatOne {
-  0%,100% {
-    transform:
-      rotate(-5deg)
-      translateY(0);
-  }
-
-  50% {
-    transform:
-      rotate(-3deg)
-      translateY(-14px);
-  }
-}
-
-@keyframes sskFloatTwo {
-  0%,100% {
-    transform:
-      rotate(5deg)
-      translateY(0);
-  }
-
-  50% {
-    transform:
-      rotate(7deg)
-      translateY(12px);
-  }
-}
-
-/* =========================================================
    SEAL
 ========================================================= */
 
@@ -726,11 +647,11 @@ const pageStyles = `
 
   z-index: 9;
 
-  left: 10%;
-  top: 43%;
+  top: 6%;
+  right: 6%;
 
-  width: 115px;
-  height: 115px;
+  width: 150px;
+  height: 150px;
 
   display: flex;
   flex-direction: column;
@@ -775,17 +696,9 @@ const pageStyles = `
     "Noto Serif Telugu",
     serif;
 
-  font-size: 29px;
+  font-size: 38px;
 
   line-height: 1;
-}
-
-.ssk-seal span,
-.ssk-seal small {
-  position: relative;
-  z-index: 2;
-
-  font-size: 8px;
 }
 
 @keyframes sskSealPulse {
@@ -2133,32 +2046,16 @@ const pageStyles = `
     right: 4%;
   }
 
-  .ssk-small-1,
-  .ssk-small-2 {
-    width: 125px;
-    height: 105px;
-  }
-
-  .ssk-small-1 {
-    left: -2px;
-    bottom: 45px;
-  }
-
-  .ssk-small-2 {
-    right: -2px;
-    top: 8px;
-  }
-
   .ssk-seal {
-    width: 82px;
-    height: 82px;
+    width: 108px;
+    height: 108px;
 
-    left: 6%;
-    top: 42%;
+    right: 4%;
+    top: 5%;
   }
 
   .ssk-seal strong {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .ssk-intro,
@@ -2606,19 +2503,9 @@ export default function About() {
 
 
               <h1 className="ssk-hero-title">
-
-                అక్షరానికి
-
-                <br />
-
-                <span className="gold">
-                  అనంతమైన
-                </span>
-
-                <br />
-
-                వేదిక
-
+                అక్షరానికి{" "}
+                <span className="gold">అనంతమైన</span>{" "}
+                వేదిక – శ్రీశ్రీ కళావేదిక
               </h1>
 
 
@@ -2695,39 +2582,11 @@ export default function About() {
               </div>
 
 
-              <div className="ssk-small-image ssk-small-1">
-
-                <img
-                  src={dance}
-                  alt="శ్రీ శ్రీ కళావేదిక నృత్య కార్యక్రమం"
-                />
-
-              </div>
-
-
-              <div className="ssk-small-image ssk-small-2">
-
-                <img
-                  src={kalaPradarshana}
-                  alt="కళా ప్రదర్శన"
-                />
-
-              </div>
-
-
               <div className="ssk-seal">
-
-                <span>
-                  శ్రీ
-                </span>
 
                 <strong>
                   శ్రీ
                 </strong>
-
-                <small>
-                  కళావేదిక
-                </small>
 
               </div>
 
@@ -2828,13 +2687,13 @@ export default function About() {
               />
 
               <Counter
-                value={100}
+                value={180}
                 suffix="+"
                 label="కవి సమ్మేళనాలు"
               />
 
               <Counter
-                value={1000}
+                value={10000}
                 suffix="+"
                 label="కవులు, రచయితలు, కళాకారుల సాహిత్య కుటుంబం"
               />
@@ -3039,6 +2898,11 @@ export default function About() {
 
               <Location
                 number="౧౦"
+                place="ఫిన్లాండ్"
+              />
+
+              <Location
+                number="౧౧"
                 place="అమెరికా"
                 upcoming
               />
@@ -3126,8 +2990,8 @@ export default function About() {
               <div className="ssk-origin-image">
 
                 <img
-                  src={writings}
-                  alt="శ్రీ శ్రీ కళావేదిక సాహిత్య ప్రస్థానం"
+                  src={founderRecognition}
+                  alt="కత్తిమండ ప్రతాప్ కుమార్ గారిని సత్కరిస్తున్న కార్యక్రమం"
                 />
 
                 <span className="ssk-origin-label">
@@ -3300,7 +3164,7 @@ export default function About() {
                 <div className="ssk-gallery-main">
 
                   <img
-                    src={dance}
+                    src={cultureMainImage}
                     alt="తెలుగు నృత్య కళారూపం"
                   />
 
@@ -3314,7 +3178,7 @@ export default function About() {
                 <div className="ssk-gallery-side">
 
                   <img
-                    src={kalaPradarshana}
+                    src={cultureSideImage}
                     alt="కళా ప్రదర్శన"
                   />
 
@@ -3368,7 +3232,7 @@ export default function About() {
 
                   <span>
                     సాహిత్యాన్ని, కళలను
-                    ప్రపంచవ్యాప్తంగా విస్తరించడం.
+                    ప్రపంచవ్యాప్తంగా విస్తరిద్దాం.
                   </span>
 
                 </h2>
@@ -3436,9 +3300,7 @@ export default function About() {
 
               <p className="ssk-final-copy">
 
-                ప్రతిభ మీది...
-                వేదిక మాది...
-                మీ ప్రతిభకు మా పట్టాభిషేకం.
+                ప్రతిభ మీది...పట్టాభిషేకం మాది...
 
               </p>
 

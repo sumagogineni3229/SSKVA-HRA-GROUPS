@@ -2,7 +2,7 @@
 import React from "react";
 
 import founder from "../assets/founder.png";
-import founderpic2 from "../assets/founderpic2.png";
+import publicationsFounderPortrait from "../assets/publications-founder-portrait.jpg";
 import founderwithcbn from "../assets/founderwithcbn.png";
 import writings from "../assets/aboutus/writings.jpg";
 import imag1 from "../assets/imag1.png";
@@ -90,6 +90,7 @@ const honours = [
   "మహాకవి గుర్రం జాషువా కవి ప్రభుత్వ పురస్కార గ్రహీత",
   "ప్రభుత్వ ఉగాది పురస్కార గ్రహీత",
   "ఆంధ్రప్రదేశ్ రాష్ట్ర సాహిత్య అకాడమి పురస్కార గ్రహీత",
+  "మీడియా అకాడమీ తెలుగు భాషా పురస్కార గ్రహీత",
 ];
 
 export default function Publications() {
@@ -751,7 +752,7 @@ export default function Publications() {
         <div className="lit-container lit-founder-layout">
           <div className="lit-founder-photo">
             <img
-              src={founderpic2}
+              src={publicationsFounderPortrait}
               alt="కళారత్న కత్తిమండ ప్రతాప్ కుమార్"
             />
             <div className="lit-founder-caption">
@@ -875,9 +876,7 @@ export default function Publications() {
           </span>
 
           <h2>
-            ప్రతిభ మీది...
-            <br />
-            వేదిక మాది...
+            ప్రతిభ మీది...పట్టాభిషేకం మాది...
           </h2>
 
           <div className="legacy-verse">
@@ -1014,7 +1013,7 @@ export default function Publications() {
         </p>
 
         <span className="final-line">
-          "మీ ప్రతిభకు మా పట్టాభిషేకం"
+          "ప్రతిభ మీది...పట్టాభిషేకం మాది..."
           <br />
           — శ్రీ శ్రీ కళావేదిక
         </span>

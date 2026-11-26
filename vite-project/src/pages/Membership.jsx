@@ -886,7 +886,7 @@ ${form.message || "లేదు"}
           </p>
 
           <div className="hero-tagline">
-            ప్రతిభ మీది... వేదిక మాది...
+            ప్రతిభ మీది...పట్టాభిషేకం మాది...
           </div>
 
           <div className="hero-divider" />
@@ -1270,9 +1270,7 @@ ${form.message || "లేదు"}
       <section className="closing">
         <div className="container">
           <h2>
-            ప్రతిభ మీది... వేదిక మాది...
-            <br />
-            మీ ప్రతిభకు మా పట్టాభిషేకం!
+            ప్రతిభ మీది...పట్టాభిషేకం మాది...
           </h2>
 
           <p>

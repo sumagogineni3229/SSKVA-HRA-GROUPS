@@ -1074,9 +1074,7 @@ export default function ExecutiveMembers() {
             and inspire generations to come.
           </p>
           <div className="closing-tagline">
-            ప్రతిభ మీది... వేదిక మాది...
-            <br />
-            మీ ప్రతిభకు మా పట్టాభిషేకం!
+            ప్రతిభ మీది...పట్టాభిషేకం మాది...
           </div>
         </div>
       </section>
