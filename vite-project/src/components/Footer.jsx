@@ -137,7 +137,8 @@ export default function Footer() {
               </span>
 
               <p>
-                +౯౧ ౯౬౭౬౨౭౨౨౮౩
+                
++91 9676272283
               </p>
 
             </div>
@@ -154,21 +155,7 @@ export default function Footer() {
 
             </div>
 
-            <div className="footer-socials">
-
-              <a href="#" aria-label="ఫేస్‌బుక్">
-                ఫే
-              </a>
-
-              <a href="#" aria-label="యూట్యూబ్">
-                యూ
-              </a>
-
-              <a href="#" aria-label="వాట్సాప్">
-                వా
-              </a>
-
-            </div>
+  
 
           </div>
 
