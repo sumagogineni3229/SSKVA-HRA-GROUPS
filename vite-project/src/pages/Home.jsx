@@ -1585,10 +1585,10 @@ export default function Home() {
             "Noto Serif Telugu",
             "Noto Sans Telugu",
             serif;
-          font-size: clamp(58px, 7vw, 94px);
-          line-height: 1.05;
+          font-size: clamp(46px, 5.5vw, 76px);
+          line-height: 1.1;
           font-weight: 600;
-          letter-spacing: -2px;
+          letter-spacing: -1.5px;
         }
 
         .signature-title span {
@@ -2043,7 +2043,7 @@ export default function Home() {
           }
 
           .signature-title {
-            font-size: clamp(52px, 7vw, 78px);
+            font-size: clamp(40px, 5.2vw, 56px);
           }
 
           .founder-medallion {
@@ -2127,9 +2127,9 @@ export default function Home() {
 
           .signature-title {
             margin-top: 23px;
-            font-size: 47px;
-            line-height: 1.08;
-            letter-spacing: -.8px;
+            font-size: clamp(32px, 8vw, 40px);
+            line-height: 1.15;
+            letter-spacing: -.4px;
           }
 
           .signature-description {
