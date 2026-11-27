@@ -14,30 +14,38 @@ import imag3 from "../assets/imag3.png";
 import news from "../assets/news.png";
 import note from "../assets/note.png";
 
+// Gallery images
+import galleryMedia31 from "../assets/gallery-media-31.jpg";
+import galleryMedia30 from "../assets/gallery-media-30.jpg";
+import galleryMedia38 from "../assets/gallery-media-38.jpg";
+import galleryMedia37 from "../assets/gallery-media-37.jpg";
+import galleryMedia36 from "../assets/gallery-media-36.jpg";
+import galleryMedia35 from "../assets/gallery-media-35.jpg";
+import galleryMedia34 from "../assets/gallery-media-34.jpg";
+import galleryMedia32 from "../assets/gallery-media-32.jpg";
+
 // About us images
-import dance from "../assets/aboutus/dance.png";
-import kalapradarshana from "../assets/aboutus/kalapradarshana.png";
 import kolatam from "../assets/aboutus/kolatam.png";
 import writings from "../assets/aboutus/writings.jpg";
 
 const galleryItems = [
   {
     id: 1,
-    image: dance,
+    image: galleryMedia31,
     category: "సాంస్కృతిక కార్యక్రమాలు",
-    tag: "నృత్య కళలు",
-    title: "నృత్య కళా వైభవం",
+    tag: "జానపద కళలు",
+    title: "జానపద వాద్య సంప్రదాయం",
     description:
-      "తెలుగు నృత్య సంప్రదాయాలు, కళారూపాలు మరియు కళాకారుల ప్రతిభకు ప్రోత్సాహం.",
+      "జానపద వాద్యాలు మరియు సంప్రదాయ కళల ప్రతిభను ఆవిష్కరించిన ప్రత్యేకమైన క్షణం.",
   },
   {
     id: 2,
-    image: kalapradarshana,
+    image: galleryMedia30,
     category: "సాంస్కృతిక కార్యక్రమాలు",
-    tag: "కళా ప్రదర్శనలు",
-    title: "కళా ప్రదర్శనల వైభవం",
+    tag: "నృత్య ప్రదర్శనలు",
+    title: "సాంస్కృతిక నృత్య వైభవం",
     description:
-      "మన సంస్కృతి మరియు సంప్రదాయ కళారూపాలను ప్రజలకు పరిచయం చేసే వేదిక.",
+      "కళాకారుల సాంప్రదాయ నృత్య ప్రదర్శనతో మెరిసిన జ్ఞాపకమిచ్చే కార్యక్రమం.",
   },
   {
     id: 3,
@@ -155,6 +163,60 @@ const galleryItems = [
     title: "సాహిత్య ప్రస్థానపు గుర్తులు",
     description:
       "సాహిత్య కార్యక్రమాలు, ప్రచురణలు మరియు సంస్థ విశేషాలు.",
+  },
+  {
+    id: 16,
+    image: galleryMedia38,
+    category: "గౌరవ సత్కారాలు",
+    tag: "గౌరవం",
+    title: "గౌరవ సత్కార క్షణాలు",
+    description:
+      "ప్రతిభావంతులు మరియు విశిష్ట అతిథులను గౌరవించిన స్మరణీయ సంఘటన.",
+  },
+  {
+    id: 17,
+    image: galleryMedia37,
+    category: "గౌరవ సత్కారాలు",
+    tag: "బహుమతులు",
+    title: "ప్రతిభకు పురస్కారం",
+    description:
+      "కళా మరియు సాహిత్య రంగాల ప్రతిభను అభినందించిన ప్రత్యేక కార్యక్రమం.",
+  },
+  {
+    id: 18,
+    image: galleryMedia36,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "సాంస్కృతిక కార్యక్రమం",
+    title: "సాంస్కృతిక ప్రతిభావంతులు",
+    description:
+      "సంప్రదాయ కళలు మరియు విశిష్ట ప్రతిభను వెలుగులోకి తెచ్చిన వేడుక.",
+  },
+  {
+    id: 19,
+    image: galleryMedia35,
+    category: "గౌరవ సత్కారాలు",
+    tag: "సన్మానం",
+    title: "యువ ప్రతిభా సన్మానం",
+    description:
+      "యువ కళాకారులు మరియు ప్రతిభావంతులను గౌరవించిన జ్ఞాపకమిచ్చే క్షణం.",
+  },
+  {
+    id: 20,
+    image: galleryMedia34,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "ప్రెస్ సమావేశం",
+    title: "జ్ఞాపకాల సమావేశం",
+    description:
+      "సంస్థ ప్రయాణం మరియు కార్యక్రమాలను పంచుకున్న ప్రత్యేక సంఘటన.",
+  },
+  {
+    id: 22,
+    image: galleryMedia32,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "గౌరవ సభ",
+    title: "మరపురాని గౌరవ సభ",
+    description:
+      "విశిష్ట వ్యక్తులు కలిసి పాల్గొన్న స్మరణీయ కార్యక్రమ క్షణం.",
   },
 ];
 
