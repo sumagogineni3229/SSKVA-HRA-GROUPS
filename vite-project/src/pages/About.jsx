@@ -387,7 +387,7 @@ const pageStyles = `
     serif;
 
   font-size:
-    clamp(54px, 7vw, 91px);
+    clamp(44px, 5.5vw, 72px);
 
   line-height: 1.38;
 
@@ -2020,7 +2020,7 @@ const pageStyles = `
   }
 
   .ssk-hero-title {
-    font-size: 48px;
+    font-size: 38px;
 
     letter-spacing: 0;
   }
@@ -2582,13 +2582,6 @@ export default function About() {
               </div>
 
 
-              <div className="ssk-seal">
-
-                <strong>
-                  శ్రీ
-                </strong>
-
-              </div>
 
             </div>
 

@@ -2089,14 +2089,6 @@ export default function Founder() {
               </div>
 
 
-              <div className="fp-seal">
-
-                <strong>
-                  శ్రీ
-                </strong>
-
-              </div>
-
             </div>
 
           </div>
