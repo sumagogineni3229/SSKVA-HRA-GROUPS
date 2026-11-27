@@ -38,6 +38,11 @@ const districts = [
   "నెల్లూరు (ఎస్‌పీఎస్‌ఆర్‌ నెల్లూరు)"
 ];
 
+const otherStates = [
+  "కర్ణాటక",
+  "తమిళనాడు"
+];
+
 export default function AndhraPradeshChapters() {
   const [search, setSearch] = useState("");
 
@@ -442,6 +447,46 @@ export default function AndhraPradeshChapters() {
             </div>
 
           )}
+
+          {/* OTHER STATE COMMITTEES */}
+
+          <div className="district-heading other-state-heading">
+            <div>
+              <span className="section-mini-label">
+                ఇతర రాష్ట్రాలు
+              </span>
+              <h2>
+                ఇతర కార్యవర్గం
+              </h2>
+            </div>
+          </div>
+
+          <div className="district-grid">
+            {otherStates.map((state, index) => (
+              <article className="district-card" key={state}>
+                <div className="district-number">
+                  {String(index + 1).padStart(2, "0")}
+                </div>
+
+                <div className="district-card-icon">
+                  <MapPin size={18} />
+                </div>
+
+                <div className="district-content">
+                  <span>
+                    ఇతర కార్యవర్గం
+                  </span>
+                  <h3>
+                    {state}
+                  </h3>
+                </div>
+
+                <div className="district-arrow">
+                  <ArrowUpRight size={17} />
+                </div>
+              </article>
+            ))}
+          </div>
 
         </div>
 
@@ -1740,6 +1785,10 @@ export default function AndhraPradeshChapters() {
           margin-bottom:
             28px;
 
+        }
+
+        .other-state-heading {
+          margin-top: 55px;
         }
 
 
