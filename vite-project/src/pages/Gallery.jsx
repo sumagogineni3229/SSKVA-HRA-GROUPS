@@ -23,6 +23,29 @@ import galleryMedia36 from "../assets/gallery-media-36.jpg";
 import galleryMedia35 from "../assets/gallery-media-35.jpg";
 import galleryMedia34 from "../assets/gallery-media-34.jpg";
 import galleryMedia32 from "../assets/gallery-media-32.jpg";
+import whatsapp01 from "../assets/gallery-whatsapp-01.jpg";
+import whatsapp02 from "../assets/gallery-whatsapp-02.jpg";
+import whatsapp03 from "../assets/gallery-whatsapp-03.jpg";
+import whatsapp04 from "../assets/gallery-whatsapp-04.jpg";
+import whatsapp05 from "../assets/gallery-whatsapp-05.jpg";
+import whatsapp06 from "../assets/gallery-whatsapp-06.jpg";
+import whatsapp07 from "../assets/gallery-whatsapp-07.jpg";
+import whatsapp08 from "../assets/gallery-whatsapp-08.jpg";
+import whatsapp09 from "../assets/gallery-whatsapp-09.jpg";
+import whatsapp10 from "../assets/gallery-whatsapp-10.jpg";
+import whatsapp11 from "../assets/gallery-whatsapp-11.jpg";
+import whatsapp12 from "../assets/gallery-whatsapp-12.jpg";
+import whatsapp13 from "../assets/gallery-whatsapp-13.jpg";
+import whatsapp14 from "../assets/gallery-whatsapp-14.jpg";
+import whatsapp15 from "../assets/gallery-whatsapp-15.jpg";
+import whatsapp16 from "../assets/gallery-whatsapp-16.jpg";
+import whatsapp17 from "../assets/gallery-whatsapp-17.jpg";
+import whatsapp18 from "../assets/gallery-whatsapp-18.jpg";
+import whatsapp19 from "../assets/gallery-whatsapp-19.jpg";
+import whatsapp20 from "../assets/gallery-whatsapp-20.jpg";
+import whatsapp21 from "../assets/gallery-whatsapp-21.jpg";
+import whatsapp22 from "../assets/gallery-whatsapp-22.jpg";
+import whatsapp23 from "../assets/gallery-whatsapp-23.jpg";
 
 // About us images
 import kolatam from "../assets/aboutus/kolatam.png";
@@ -217,6 +240,190 @@ const galleryItems = [
     title: "మరపురాని గౌరవ సభ",
     description:
       "విశిష్ట వ్యక్తులు కలిసి పాల్గొన్న స్మరణీయ కార్యక్రమ క్షణం.",
+  },
+  {
+    id: 23,
+    image: whatsapp01,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "సభ",
+    title: "సంఘసేవా సభ",
+    description: "సంస్థ కార్యక్రమాల్లో భాగస్వాములైన ప్రజల సమీక్ష.",
+  },
+  {
+    id: 24,
+    image: whatsapp02,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "జ్ఞాపకం",
+    title: "స్మరణీయ కార్యక్రమ క్షణం",
+    description: "కళాకారులు మరియు ప్రజల భాగస్వామ్యంతో జరిగిన వేడుక.",
+  },
+  {
+    id: 25,
+    image: whatsapp03,
+    category: "గౌరవ సత్కారాలు",
+    tag: "గౌరవం",
+    title: "ప్రతిభావంతులకు గౌరవం",
+    description: "యువ కళాకారులను సన్మానించిన స్మరణీయ సందర్భం.",
+  },
+  {
+    id: 26,
+    image: whatsapp04,
+    category: "గౌరవ సత్కారాలు",
+    tag: "సన్మానం",
+    title: "విశిష్ట వ్యక్తుల సత్కారం",
+    description: "కళా, సాహిత్య రంగాలకు చేసిన సేవకు గౌరవ సూచిక.",
+  },
+  {
+    id: 27,
+    image: whatsapp05,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "ప్రచురణ",
+    title: "సాహిత్య ప్రచురణల ఉపయుక్తం",
+    description: "సాహిత్య గ్రంథాల మరియు రచనల పరిచయ కార్యక్రమం.",
+  },
+  {
+    id: 28,
+    image: whatsapp06,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "ప్రెస్",
+    title: "ప్రెస్ సమావేశం",
+    description: "సంస్థ కార్యక్రమాల గురించి ప్రెస్ ముందు వివరించిన క్షణం.",
+  },
+  {
+    id: 29,
+    image: whatsapp07,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "గౌరవం",
+    title: "సభ్యుల గౌరవ దృశ్యం",
+    description: "సంస్థ సభ్యులు కలిసి పాల్గొన్న ప్రత్యేక పరిచయం.",
+  },
+  {
+    id: 30,
+    image: whatsapp08,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "ప్రచార కార్యక్రమం",
+    title: "సామాజిక అవగాహన క్షణం",
+    description: "సమాజ సేవ మరియు అవగాహన కార్యక్రమంలో నిలిచిన దృశ్యం.",
+  },
+  {
+    id: 31,
+    image: whatsapp09,
+    category: "గౌరవ సత్కారాలు",
+    tag: "సన్మానం",
+    title: "ప్రతిభకు పురస్కారం",
+    description: "కళాకారులకు గుర్తింపు నివ్వబడిన గౌరవ క్షణం.",
+  },
+  {
+    id: 32,
+    image: whatsapp10,
+    category: "సాంస్కృతిక కార్యక్రమాలు",
+    tag: "ర్యాలీ",
+    title: "సాంస్కృతిక ర్యాలీ",
+    description: "జానపద జెండాలు మరియు సంప్రదాయ వేషధారణతో జరిగిన ర్యాలీ.",
+  },
+  {
+    id: 33,
+    image: whatsapp11,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "భోజన వితరణ",
+    title: "సేవా కార్యక్రమం",
+    description: "సమాజానికి అన్నదానం మరియు సేవా కార్యక్రమం నిర్వహించిన క్షణం.",
+  },
+  {
+    id: 34,
+    image: whatsapp12,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "ఆరోగ్య శిబిరం",
+    title: "సామాజిక ఆరోగ్య సేవ",
+    description: "ప్రజల ఆరోగ్యంపై నిర్వహించిన సేవా కార్యక్రమం.",
+  },
+  {
+    id: 35,
+    image: whatsapp13,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "సభ",
+    title: "సభ్యుల సమావేశం",
+    description: "సంస్థ సభ్యులు కలిసి పాల్గొన్న సమావేశ దృశ్యం.",
+  },
+  {
+    id: 36,
+    image: whatsapp14,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "జ్ఞాపకం",
+    title: "స్మరణీయ సభ",
+    description: "విశిష్ట అతిథులు మరియు సభ్యులతో జరిగిన సమావేశం.",
+  },
+  {
+    id: 37,
+    image: whatsapp15,
+    category: "గౌరవ సత్కారాలు",
+    tag: "సన్మానం",
+    title: "స్మారక సత్కారం",
+    description: "విశిష్ట వ్యక్తులను సన్మానించిన ప్రత్యేక సందర్భం.",
+  },
+  {
+    id: 38,
+    image: whatsapp16,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "బాట",
+    title: "సంస్థ కార్యకర్తల సమావేశం",
+    description: "సంస్థ కార్యకర్తలు ఒకటిగా పాల్గొన్న స్మరణీయ దృశ్యం.",
+  },
+  {
+    id: 39,
+    image: whatsapp17,
+    category: "గౌరవ సత్కారాలు",
+    tag: "సన్మానం",
+    title: "ప్రతిభా సత్కార వేడుక",
+    description: "ప్రతిభావంతుల పురస్కార మరియు సన్మాన కార్యక్రమం.",
+  },
+  {
+    id: 40,
+    image: whatsapp18,
+    category: "ప్రత్యేక కార్యక్రమాలు",
+    tag: "సహకారం",
+    title: "భోజన సేవా కార్యక్రమం",
+    description: "ప్రజలకు ఆహారం అందించిన సామాజిక సేవా క్షణం.",
+  },
+  {
+    id: 41,
+    image: whatsapp19,
+    category: "గౌరవ సత్కారాలు",
+    tag: "గౌరవం",
+    title: "సాంస్కృతిక గౌరవ సభ",
+    description: "కళా, సాహిత్య ప్రతిభను గౌరవించిన వేడుక.",
+  },
+  {
+    id: 42,
+    image: whatsapp20,
+    category: "గౌరవ సత్కారాలు",
+    tag: "సన్మానం",
+    title: "ప్రత్యేక సత్కార క్షణం",
+    description: "విశిష్ట వ్యక్తులను గుర్తించి సన్మానించిన సందర్భం.",
+  },
+  {
+    id: 43,
+    image: whatsapp21,
+    category: "ప్రత్యేక క్షణాలు",
+    tag: "పురస్కారం",
+    title: "గౌరవ పురస్కార ప్రదానం",
+    description: "సంఘ సేవా మరియు ప్రతిభకు పురస్కారం అందించిన క్షణం.",
+  },
+  {
+    id: 44,
+    image: whatsapp22,
+    category: "గౌరవ సత్కారాలు",
+    tag: "సదస్సు",
+    title: "సాంఘిక సదస్సు",
+    description: "విశిష్ట అతిథులు మరియు సభ్యులతో జరిగిన సదస్సు.",
+  },
+  {
+    id: 45,
+    image: whatsapp23,
+    category: "గౌరవ సత్కారాలు",
+    tag: "గౌరవం",
+    title: "ప్రతిభావంతుల గౌరవ సభ",
+    description: "సంస్థ కార్యక్రమాల్లో గౌరవించిన ప్రతిభావంతుల దృశ్యం.",
   },
 ];
 
